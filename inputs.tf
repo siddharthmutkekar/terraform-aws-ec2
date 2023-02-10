@@ -26,3 +26,17 @@ variable "ebs_volume_size" {
   description = "Enter the size the data volume."
   default     = null
 }
+variable "Client" {
+  description = "Enter Client Name for whom resource is getting created"
+  default = "thinknyx"
+}
+variable "Vendor" {
+  description = "Enter the Vendor Name"
+  default = "thinknyx"
+}
+variable "Trainer" {
+  description = "Enter the Trainer Name"
+  default = "kul"
+}
+    
+    
